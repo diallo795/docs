@@ -1,4 +1,273 @@
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shammad - Vente et Analyse de l'Or</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shammad</h1>
+        <p>Vente et Analyse Professionnelle de l'Or</p>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue chez Shammad</h2>
+        <p>Nous sommes spécialisés dans la vente et l'analyse de l'or. Que vous soyez un investisseur ou un passionné, nous avons les solutions qu'il vous faut.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+        <p>Shammad est une entreprise de confiance dans le domaine de l'or. Nous offrons des services de vente et d'analyse pour vous aider à prendre des décisions éclairées.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Vente d'or de qualité supérieure</li>
+            <li>Analyse précise de l'or</li>
+            <li>Conseils pour les investisseurs</li>
+            <li>Évaluation de bijoux et pièces en or</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande de partenariat, n'hésitez pas à nous contacter :</p>
+        <ul>
+            <li><strong>Téléphone :</strong> +227 91 43 03 16</li>
+            <li><strong>Email :</strong> contact@shammad-or.com</li>
+        </ul>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shammad. Tous droits réservés.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shammad - Vente et Analyse de l'Or</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shammad</h1>
+        <p>Vente et Analyse Professionnelle de l'Or</p>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue chez Shammad</h2>
+        <p>Nous sommes spécialisés dans la vente et l'analyse de l'or. Que vous soyez un investisseur ou un passionné, nous avons les solutions qu'il vous faut.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+        <p>Shammad est une entreprise de confiance dans le domaine de l'or. Nous offrons des services de vente et d'analyse pour vous aider à prendre des décisions éclairées.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Vente d'or de qualité supérieure</li>
+            <li>Analyse précise de l'or</li>
+            <li>Conseils pour les investisseurs</li>
+            <li>Évaluation de bijoux et pièces en or</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande de partenariat, n'hésitez pas à nous contacter :</p>
+        <ul>
+            <li><strong>Téléphone :</strong> +227 91 43 03 16</li>
+            <li><strong>Email :</strong> contact@shammad-or.com</li>
+        </ul>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shammad. Tous droits réservés.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shammad - Vente et Analyse de l'Or</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shammad</h1>
+        <p>Vente et Analyse Professionnelle de l'Or</p>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue chez Shammad</h2>
+        <p>Nous sommes spécialisés dans la vente et l'analyse de l'or. Que vous soyez un investisseur ou un passionné, nous avons les solutions qu'il vous faut.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+        <p>Shammad est une entreprise de confiance dans le domaine de l'or. Nous offrons des services de vente et d'analyse pour vous aider à prendre des décisions éclairées.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Vente d'or de qualité supérieure</li>
+            <li>Analyse précise de l'or</li>
+            <li>Conseils pour les investisseurs</li>
+            <li>Évaluation de bijoux et pièces en or</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande de partenariat, n'hésitez pas à nous contacter :</p>
+        <ul>
+            <li><strong>Téléphone :</strong> +227 91 43 03 16</li>
+            <li><strong>Email :</strong> contact@shammad-or.com</li>
+        </ul>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shammad. Tous droits réservés.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shammad - Vente et Analyse de l'Or</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shammad</h1>
+        <p>Vente et Analyse Professionnelle de l'Or</p>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue chez Shammad</h2>
+        <p>Nous sommes spécialisés dans la vente et l'analyse de l'or. Que vous soyez un investisseur ou un passionné, nous avons les solutions qu'il vous faut.</p>
+    </section>
+
+    <section id="apropos">
+        <h2>À propos de nous</h2>
+        <p>Shammad est une entreprise de confiance dans le domaine de l'or. Nous offrons des services de vente et d'analyse pour vous aider à prendre des décisions éclairées.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Vente d'or de qualité supérieure</li>
+            <li>Analyse précise de l'or</li>
+            <li>Conseils pour les investisseurs</li>
+            <li>Évaluation de bijoux et pièces en or</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande de partenariat, n'hésitez pas à nous contacter :</p>
+        <ul>
+            <li><strong>Téléphone :</strong> +227 91 43 03 16</li>
+            <li><strong>Email :</strong> contact@shammad-or.com</li>
+        </ul>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shammad. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>![1000254515](https://github.com/user-attachments/assets/d1b8dcbf-8e95-4f60-a342-954fdcb7d9ea)
+
 title: Creating a pull request
 intro: 'Create a pull request to propose and collaborate on changes to a repository. These changes are proposed in a *branch*, which ensures that the default branch only contains finished and approved work.'
 permissions: 'Anyone with read access to a repository can create a pull request. {% data reusables.enterprise-accounts.emu-permission-propose %}'
